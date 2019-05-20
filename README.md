@@ -34,13 +34,13 @@
 
 | 文章数目 | Key/Alias | 按CC数目排序 | 按文章时间排序 |
 | ------- | --------- | ---------- | ------------|
-| 144 | AFLfuzzer | [Link](cc/AFLfuzzer_post_sort_by_cc_cnt.md) | [Link](cc/AFLfuzzer_post_sort_by_time.md) |
-| 24 | Anti-AV[免杀] | [Link](cc/Anti-AV_post_sort_by_cc_cnt.md) | [Link](cc/Anti-AV_post_sort_by_time.md) |
-| 18 | Anti-Analysis | [Link](cc/Anti-Analysis_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Analysis_post_sort_by_time.md) |
-| 116 | Anti-Debug[反调试] | [Link](cc/Anti-Debug_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Debug_post_sort_by_time.md) |
-| 44 | Anti-Disassemble | [Link](cc/Anti-Disassemble_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Disassemble_post_sort_by_time.md) |
-| 13 | Anti-Forensic | [Link](cc/Anti-Forensic_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Forensic_post_sort_by_time.md) |
-| 15 | Anti-VM[Anti-Sandbox] | [Link](cc/Anti-VM_post_sort_by_cc_cnt.md) | [Link](cc/Anti-VM_post_sort_by_time.md) |
+| 144 | AFLfuzzer | [Link](posts/cc/AFLfuzzer_post_sort_by_cc_cnt.md) | [Link](posts/cc/AFLfuzzer_post_sort_by_time.md) |
+| 24 | Anti-AV[免杀] | [Link](posts/cc/Anti-AV_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-AV_post_sort_by_time.md) |
+| 18 | Anti-Analysis | [Link](posts/cc/Anti-Analysis_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-Analysis_post_sort_by_time.md) |
+| 116 | Anti-Debug[反调试] | [Link](posts/cc/Anti-Debug_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-Debug_post_sort_by_time.md) |
+| 44 | Anti-Disassemble | [Link](posts/cc/Anti-Disassemble_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-Disassemble_post_sort_by_time.md) |
+| 13 | Anti-Forensic | [Link](posts/cc/Anti-Forensic_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-Forensic_post_sort_by_time.md) |
+| 15 | Anti-VM[Anti-Sandbox] | [Link](posts/cc/Anti-VM_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-VM_post_sort_by_time.md) |
 
 - 高星工具部分列表(非收集类)([完整列表 - 1W+](https://github.com/xrkk/cbr-doc/tools/tool_list.md)):
 
@@ -52,7 +52,7 @@
 | 17629 | 2018.10.02 | [shadowsocks/shadowsocksx-ng](https://github.com/shadowsocks/shadowsocksx-ng) | Next Generation of ShadowsocksX |
 | 15850 | 2019.04.04 | [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework |
 
-- 高星工具部分列表(收集类)([完整列表 - 360+](https://github.com/xrkk/cbr-doc/example/tool_collection_list.md)):
+- 高星工具部分列表(收集类)([完整列表 - 360+](https://github.com/xrkk/cbr-doc/tools/tool_collection_list.md)):
 
 | 星数 | 最近更新 | 名称 | 描述 |
 | --- | ------- | --- | --- |
