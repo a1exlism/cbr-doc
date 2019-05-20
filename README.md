@@ -26,8 +26,8 @@
 - 前端: [xrkk/cbr-web](https://github.com/xrkk/cbr-web)
 
 ## 截图
-- 文章搜索: ![文章搜索](https://github.com/xrkk/cbr-doc/screenshot/post-search.png)
-- 工具搜索: ![工具搜索](https://github.com/xrkk/cbr-doc/screenshot/tool-search.png)
+- 文章搜索: ![文章搜索](https://github.com/xrkk/cbr-doc/img/post-search.png)
+- 工具搜索: ![工具搜索](https://github.com/xrkk/cbr-doc/img/tool-search.png)
 
 ## 示例
 - 按文章内容包含的关键词搜索的部分结果([完整列表 - 260+](posts/cc_sum.md)):
