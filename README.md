@@ -30,7 +30,31 @@
 - 工具搜索: ![工具搜索](https://github.com/xrkk/cbr-doc/screenshot/tool-search.png)
 
 ## 示例
-- 按文章内容包含的关键词搜索的部分结果([完整列表](https://github.com/xrkk/cbr-doc/example/_post_search.md)):
-- 高星工具部分列表([完整列表](https://github.com/xrkk/cbr-doc/example/_tool_list.md)):
+- 按文章内容包含的关键词搜索的部分结果([完整列表 - 260+](https://github.com/xrkk/cbr-doc/posts/cc_sum.md)):
+| 文章数目 | Key/Alias | 按CC数目排序 | 按文章时间排序 |
+| ------- | --------- | ---------- | ------------|
+| 144 | AFLfuzzer | [Link](cc/AFLfuzzer_post_sort_by_cc_cnt.md) | [Link](cc/AFLfuzzer_post_sort_by_time.md) |
+| 24 | Anti-AV[免杀] | [Link](cc/Anti-AV_post_sort_by_cc_cnt.md) | [Link](cc/Anti-AV_post_sort_by_time.md) |
+| 18 | Anti-Analysis | [Link](cc/Anti-Analysis_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Analysis_post_sort_by_time.md) |
+| 116 | Anti-Debug[反调试] | [Link](cc/Anti-Debug_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Debug_post_sort_by_time.md) |
+| 44 | Anti-Disassemble | [Link](cc/Anti-Disassemble_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Disassemble_post_sort_by_time.md) |
+| 13 | Anti-Forensic | [Link](cc/Anti-Forensic_post_sort_by_cc_cnt.md) | [Link](cc/Anti-Forensic_post_sort_by_time.md) |
+| 15 | Anti-VM[Anti-Sandbox] | [Link](cc/Anti-VM_post_sort_by_cc_cnt.md) | [Link](cc/Anti-VM_post_sort_by_time.md) |
+- 高星工具部分列表(非收集类)([完整列表 - 1W+](https://github.com/xrkk/cbr-doc/tools/tool_list.md)):
+| 星数 | 最近更新 | 名称 | 描述 |
+| --- | ------- | --- | --- |
+| 33774 | 2019.03.28 | [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | An open-source x64/x32 debugger for windows. |
+| 21777 | 2019.03.26 | [fatedier/frp](https://github.com/fatedier/frp) | A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. |
+| 18080 | 2019.04.03 | [skylot/jadx](https://github.com/skylot/jadx) | Dex to Java decompiler |
+| 17629 | 2018.10.02 | [shadowsocks/shadowsocksx-ng](https://github.com/shadowsocks/shadowsocksx-ng) | Next Generation of ShadowsocksX |
+| 15850 | 2019.04.04 | [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework |
+- 高星工具部分列表(收集类)([完整列表 - 360+](https://github.com/xrkk/cbr-doc/example/tool_collection_list.md)):
+| 星数 | 最近更新 | 名称 | 描述 |
+| --- | ------- | --- | --- |
+| 32280 | 2018.11.16 | [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) | The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data. |
+| 27716 | 2018.10.25 | [hack-with-github/awesome-hacking](https://github.com/hack-with-github/awesome-hacking) | A collection of various awesome lists for hackers, pentesters and security researchers |
+| 20748 | 2018.12.12 | [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) |  |
+| 17892 | 2017.02.20 | [fallibleinc/security-guide-for-developers](https://github.com/fallibleinc/security-guide-for-developers) | Security Guide for Developers (实用性开发人员安全须知) |
+| 16232 | 2019.01.08 | [danielmiessler/seclists](https://github.com/danielmiessler/seclists) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. |
 
 
