@@ -66,8 +66,8 @@
 
 ## `Mongodb`
 - [安装](https://docs.mongodb.com/manual/installation/)
-- `mongod --port 27029`: 启动, 默认端口`27029`
-- [下载 cbr_mongodb_dump.tar.gz]()数据
+- `mongod --port 27029`: 启动, 使用端口`27029`
+- [下载 cbr_mongodb_dump.tar.gz](https://mega.nz/#!fKAwGAAS!JC2i_kp-2rlKEz0ImYYV6tLl5dP-JihCCK2lDmcHLfk)数据
 - `tar -xzf cbr_mongodb_dump.tar.gz`: 解压
 - `mongorestore --port 27029 --nsInclude 'posts.*' --dir xxx_dir --gzip -vvvvvv --drop`: 导入
 
