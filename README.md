@@ -26,8 +26,8 @@
 - 前端: [xrkk/cbr-web](https://github.com/xrkk/cbr-web)
 
 ## 截图
-- 文章搜索: ![文章搜索](https://github.com/xrkk/cbr-doc/img/post-search.png)
-- 工具搜索: ![工具搜索](https://github.com/xrkk/cbr-doc/img/tool-search.png)
+- 文章搜索: ![文章搜索](img/post-search.png)
+- 工具搜索: ![工具搜索](img/tool-search.png)
 
 ## 示例
 - 按文章内容包含的关键词搜索的部分结果([完整列表 - 260+](posts/cc_sum.md)):
@@ -62,4 +62,29 @@
 | 17892 | 2017.02.20 | [fallibleinc/security-guide-for-developers](https://github.com/fallibleinc/security-guide-for-developers) | Security Guide for Developers (实用性开发人员安全须知) |
 | 16232 | 2019.01.08 | [danielmiessler/seclists](https://github.com/danielmiessler/seclists) | SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. |
 
+# 安装
 
+## `Mongodb`
+- [安装](https://docs.mongodb.com/manual/installation/)
+- `mongod --port 27029`: 启动, 默认端口`27029`
+- [下载 cbr_mongodb_dump.tar.gz]()数据
+- `tar -xzf cbr_mongodb_dump.tar.gz`: 解压
+- `mongorestore --port 27029 --nsInclude 'posts.*' --dir xxx_dir --gzip -vvvvvv --drop`: 导入
+
+## 后端
+- `git clone https://github.com/xrkk/cbr-backend`
+- `cd cbr-backend`
+- `virtualenv -p python3 .`
+- `source bin/activate && cd src`
+- `pip install -r requirements.txt`
+- 代码中搜索`27029`, 配置`MongoDB`数据库的端口(主机/认证等)
+- `python main.py`: 运行. 默认端口`5000`
+
+## 前端
+- 安装`nodejs && npm`
+- `git clone https://github.com/xrkk/cbr-web`
+- `cd cbr-web`
+- `npm i`
+- 编辑`environment.ts/environment.prod.ts`, 修改后端地址(默认: http://127.0.0.1:5000)
+- `ng serve`: 使用默认端口`4200`
+- 浏览器打开`http://127.0.0.1:4200`
