@@ -30,7 +30,7 @@
 - 工具搜索: ![工具搜索](https://github.com/xrkk/cbr-doc/screenshot/tool-search.png)
 
 ## 示例
-- 按文章内容包含的关键词搜索的部分结果([完整列表 - 260+](https://github.com/xrkk/cbr-doc/posts/cc_sum.md)):
+- 按文章内容包含的关键词搜索的部分结果([完整列表 - 260+](posts/cc_sum.md)):
 
 | 文章数目 | Key/Alias | 按CC数目排序 | 按文章时间排序 |
 | ------- | --------- | ---------- | ------------|
@@ -42,7 +42,7 @@
 | 13 | Anti-Forensic | [Link](posts/cc/Anti-Forensic_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-Forensic_post_sort_by_time.md) |
 | 15 | Anti-VM[Anti-Sandbox] | [Link](posts/cc/Anti-VM_post_sort_by_cc_cnt.md) | [Link](posts/cc/Anti-VM_post_sort_by_time.md) |
 
-- 高星工具部分列表(非收集类)([完整列表 - 1W+](https://github.com/xrkk/cbr-doc/tools/tool_list.md)):
+- 高星工具部分列表(非收集类)([完整列表 - 1W+](tools/tool_list.md)):
 
 | 星数 | 最近更新 | 名称 | 描述 |
 | --- | ------- | --- | --- |
@@ -52,7 +52,7 @@
 | 17629 | 2018.10.02 | [shadowsocks/shadowsocksx-ng](https://github.com/shadowsocks/shadowsocksx-ng) | Next Generation of ShadowsocksX |
 | 15850 | 2019.04.04 | [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework |
 
-- 高星工具部分列表(收集类)([完整列表 - 360+](https://github.com/xrkk/cbr-doc/tools/tool_collection_list.md)):
+- 高星工具部分列表(收集类)([完整列表 - 360+](tools/tool_collection_list.md)):
 
 | 星数 | 最近更新 | 名称 | 描述 |
 | --- | ------- | --- | --- |
