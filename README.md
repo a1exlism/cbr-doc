@@ -1,11 +1,36 @@
 # 网安图书馆
 
 ## 简要说明
-- 从近2000个网络安全相关的资讯、博客站点中爬取的文章，并对文章内容进行索引等操作
-  - 搜索:
+- 从近2000个网络安全相关的资讯、博客站点中爬取的文章，并对文章内容进行分类/内容提取与加工/索引等操作
+- 文章搜索: 可从多个维度对文章进行搜索, 包括:
+  - 所属站点
+  - 文章链接
+  - 文章类型: 恶意代码/漏洞/漏洞披露/CTF/攻防/报告/代码与工具/其他/未设置
+  - 文章时间: 发布时间/添加时间/审计时间
+  - 为文章附加的Tag
+  - 文章是否有翻译原文/翻译译文(数据库中)
+  - 文章内容中包含的关键词
+  - 文章内容中包含的Hash值
+  - 可排序方式: 文章时间/字数/图片数/内容包含的关键词数目
+- 开源工具: 从文章内容中提取开源站点的链接, 验证后添加为工具. 工具可按以下维度进行搜索:
+  - 源: github/gitlab/bitbucket/sourceforge
+  - 为工具附加的Tag
+  - 关键词: 全文匹配/正则匹配
+  - 是否设置了如下属性: 与安全相关、资源收集类型、是否是Fork的
+  - 主语言
+  - 可排序方式: 星数/创建时间/更新时间/添加时间
+- Hash值搜索: 从文章内容/链接中提取hash值, 到VT等网站验证, 在结合文章内容手动设置Hash值所属的样本家族(前端代码被去除)
 
 ## 子项目
-- 后端: 
-- 前端:
+- 后端: [xrkk/cbr-backend](https://github.com/xrkk/cbr-backend)
+- 前端: [xrkk/cbr-web](https://github.com/xrkk/cbr-web)
+
+## 截图
+- 文章搜索: ![文章搜索](https://github.com/xrkk/cbr-doc/screenshot/post-search.png)
+- 工具搜索: ![工具搜索](https://github.com/xrkk/cbr-doc/screenshot/tool-search.png)
 
 ## 示例
+- 按文章内容包含的关键词搜索的部分结果([完整列表](https://github.com/xrkk/cbr-doc/example/_post_search.md)):
+- 高星工具部分列表([完整列表](https://github.com/xrkk/cbr-doc/example/_tool_list.md)):
+
+
